@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://erayaslan.github.io
+title: Awesome
+email: erayaslan@gmail.com
+author: Eray Aslan
+description: My awesome new site
+paginate: 3
+google_analytics: 
