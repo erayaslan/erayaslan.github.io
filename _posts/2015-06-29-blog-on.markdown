@@ -1,0 +1,18 @@
+---
+published: true
+title: Blog on
+layout: post
+---
+Have fun.  Play hard.
+
+       if use ldap; then
+                mycc="${mycc} -DHAS_LDAP"
+                AUXLIBS_LDAP="-lldap -llber"
+        fi
+
+        if use mysql; then
+                mycc="${mycc} -DHAS_MYSQL $(mysql_config --include)"
+                AUXLIBS_MYSQL="$(mysql_config --libs)"
+        fi
+
+
