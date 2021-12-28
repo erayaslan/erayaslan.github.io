@@ -32,4 +32,11 @@ __Moral of the story__: Use immutable data.  Use streaming for ease of implement
 
 Another principle for data handling is idempotence - no side effects, similar to pure functions in functional programming.  But that is a topic for another post. This one even now is longer than I expected.
 
+__EDIT__: To recap as there were some questions regarding this post:
+  - Storage format (parquet, deltalake, dvc etc) is important.  But what is more important is what kind of data you store
+  - Data is a record of observations, i.e. a history book. Do not modify history.  Store observations and not derived data
+    - Store derived data only after careful consideration and only for optimization purposes
+  - Data in general flows continuously. It is not frozen in time. So build pipelines that process continuously flowing data
+  - Batch processing is too manual a process and undermines trust in data
+
 [lambda-url]: https://en.wikipedia.org/wiki/Lambda_architecture
