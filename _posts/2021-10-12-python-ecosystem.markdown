@@ -287,7 +287,7 @@ We can use networkx's draw_network method to visualize our communities. However,
 
 Each community is a different color. Lines represent dependencies and the name of a package is proportional to its centrality measure.  The upper right purple community is Microsoft Azure packages for example.  And the lower leftish orange community mostly consists of data science packages.
 
-`six` and `requests` (and `setuptools`) seem to be some of the most important packages in our graph.
+`six` and `requests` (and `setuptools`) seem to be the most important packages in our graph.
 
 
 One final point:
